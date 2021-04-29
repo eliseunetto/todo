@@ -56,4 +56,8 @@ export class ReadAllComponent implements OnInit {
     this.router.navigate(['finalizados'])
   }
 
+  novoTodo(): void {
+    this.router.navigate(['create'])
+  }
+
 }

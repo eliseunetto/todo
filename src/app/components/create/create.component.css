@@ -1,0 +1,25 @@
+form {
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+}
+
+form h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(94, 76, 179);
+    margin-bottom: 3rem;
+}
+
+.form {
+    width: 100%;
+}
+
+.bottons {
+    width: 100%;
+}
+
+button {
+    width: 110px;
+    margin: .5rem;
+}
