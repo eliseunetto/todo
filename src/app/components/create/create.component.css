@@ -20,6 +20,8 @@ form h1 {
 }
 
 button {
+    text-transform: uppercase;
     width: 110px;
     margin: .5rem;
+    border-radius: .5rem;
 }
