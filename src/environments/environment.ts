@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://localhost:8080/todos'
+  //baseUrl: "http://localhost:8080/todos",
+  baseUrl: "https://todo-en-api.herokuapp.com/todos",
 };
 
 /*
