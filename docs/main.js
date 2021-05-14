@@ -39,7 +39,7 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Todo Application");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "To Do Application");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -299,7 +299,7 @@ class UpdateComponent {
             this.service.message("Informações atualizadas com sucesso!");
             this.router.navigate([""]);
         }, (erro) => {
-            this.service.message("ERRO ao atualizar TODO");
+            this.service.message("ERRO ao atualizar To Do");
             this.router.navigate([""]);
         });
     }
@@ -312,10 +312,10 @@ class UpdateComponent {
     }
 }
 UpdateComponent.ɵfac = function UpdateComponent_Factory(t) { return new (t || UpdateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_todo_service__WEBPACK_IMPORTED_MODULE_2__["TodoService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"])); };
-UpdateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UpdateComponent, selectors: [["app-update"]], decls: 25, vars: 4, consts: [["appearance", "fill"], ["name", "todo.dataParaFinalizar", "matInput", "", "disabled", "", 3, "ngModel", "ngModelChange"], ["matSuffix", "", 3, "for"], ["disabled", "true"], ["dp3", ""], [1, "forms"], [1, "form"], ["name", "todo.titulo", "matInput", "", "placeholder", "Ex. Extudar Spring", 3, "ngModel", "ngModelChange"], ["name", "todo.descricao", "matInput", "", "placeholder", "Ex. Extudar Spring Boot 2", 3, "ngModel", "ngModelChange"], [1, "buttons"], ["mat-stroked-button", "", "color", "primary", 3, "click"], ["mat-stroked-button", "", "color", "warn", 3, "click"]], template: function UpdateComponent_Template(rf, ctx) { if (rf & 1) {
+UpdateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UpdateComponent, selectors: [["app-update"]], decls: 25, vars: 4, consts: [["appearance", "fill"], ["name", "todo.dataParaFinalizar", "matInput", "", "disabled", "", 3, "ngModel", "ngModelChange"], ["matSuffix", "", 3, "for"], ["disabled", "true"], ["dp3", ""], [1, "forms"], [1, "form"], ["name", "todo.titulo", "matInput", "", "placeholder", "Ex. Estudar Spring", 3, "ngModel", "ngModelChange"], ["name", "todo.descricao", "matInput", "", "placeholder", "Ex. Estudar Spring Boot 2", 3, "ngModel", "ngModelChange"], [1, "buttons"], ["mat-stroked-button", "", "color", "primary", 3, "click"], ["mat-stroked-button", "", "color", "warn", 3, "click"]], template: function UpdateComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "form");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Atualizando um todo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Atualizando um To Do");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-form-field", 0);
@@ -431,10 +431,10 @@ class CreateComponent {
     }
 }
 CreateComponent.ɵfac = function CreateComponent_Factory(t) { return new (t || CreateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_todo_service__WEBPACK_IMPORTED_MODULE_2__["TodoService"])); };
-CreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CreateComponent, selectors: [["app-create"]], decls: 25, vars: 5, consts: [["appearance", "fill"], ["name", "todo.dataParaFinalizar", "matInput", "", "disabled", "", 3, "ngModel", "matDatepicker", "ngModelChange"], ["matSuffix", "", 3, "for"], ["disabled", "false"], ["dp3", ""], [1, "forms"], [1, "form"], ["name", "todo.titulo", "matInput", "", "placeholder", "Ex. Extudar Spring", 3, "ngModel", "ngModelChange"], ["name", "todo.descricao", "matInput", "", "placeholder", "Ex. Extudar Spring Boot 2", 3, "ngModel", "ngModelChange"], [1, "buttons"], ["mat-stroked-button", "", "color", "primary", 3, "click"], ["mat-stroked-button", "", "color", "warn", 3, "click"]], template: function CreateComponent_Template(rf, ctx) { if (rf & 1) {
+CreateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CreateComponent, selectors: [["app-create"]], decls: 25, vars: 5, consts: [["appearance", "fill"], ["name", "todo.dataParaFinalizar", "matInput", "", "disabled", "", 3, "ngModel", "matDatepicker", "ngModelChange"], ["matSuffix", "", 3, "for"], ["disabled", "false"], ["dp3", ""], [1, "forms"], [1, "form"], ["name", "todo.titulo", "matInput", "", "placeholder", "Ex. Estudar Spring", 3, "ngModel", "ngModelChange"], ["name", "todo.descricao", "matInput", "", "placeholder", "Ex. Estudar Spring Boot 2", 3, "ngModel", "ngModelChange"], [1, "buttons"], ["mat-stroked-button", "", "color", "primary", 3, "click"], ["mat-stroked-button", "", "color", "warn", 3, "click"]], template: function CreateComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "form");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Criando novo todo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Criando novo To Do");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-form-field", 0);
@@ -682,7 +682,7 @@ ReadAllComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "button", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ReadAllComponent_Template_button_click_4_listener() { return ctx.novoTodo(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Novo todo ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " Novo To Do ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ReadAllComponent_div_6_Template, 21, 4, "div", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
