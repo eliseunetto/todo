@@ -40,7 +40,7 @@ export class UpdateComponent implements OnInit {
         this.router.navigate([""]);
       },
       (erro) => {
-        this.service.message("ERRO ao atualizar TODO");
+        this.service.message("ERRO ao atualizar To Do");
         this.router.navigate([""]);
       }
     );
